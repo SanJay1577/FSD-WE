@@ -83,3 +83,24 @@ const nestObj = [
 
 console.log("siva's -", nestObj[0].studend[0].stack[2].js[0]);
 console.log("chandru's", nestObj[0].studend[1].stack[2].js[0]);
+
+// XML HttP Request
+// https://restcountries.com/v3.1/all
+
+let xhr = new XMLHttpRequest();
+console.log(xhr);
+xhr.open("GET", "https://restcountries.com/v3.1/all");
+xhr.send();
+xhr.onload = function () {
+  const data = JSON.parse(xhr.response);
+  console.log(data);
+};
+
+let dummyJson = {
+  name: "sanjay",
+};
+
+const strJSon = JSON.stringify(dummyJson);
+console.log(strJSon);
+const data1 = JSON.parse(strJSon);
+console.log(data1);
