@@ -123,3 +123,31 @@ anousFunc();
 const l = (value) => console.log(value);
 l("sanjay");
 l(6 + 9);
+
+const fruitArr = ["apple", "mango", "orange"];
+//spread ... -> "apple" "mango" "orange"
+
+function listallfruits(app, remanings) {
+  console.log(app, ...remanings);
+}
+listallfruits(...fruitArr); //("apple", "mango", "orange")
+
+var personame = "sanjay";
+
+const stuObj = {
+  personame,
+};
+
+const perobj = {
+  name: "sanjay",
+  position: "mentor",
+};
+function saymyName(person) {
+  console.log("Hi there i'm", person.name, "and my positiomn", person.position);
+  console.log(`
+   Hi there i'm ${person.name}
+   my positiomn ${person.position}
+   `);
+}
+
+saymyName(perobj);

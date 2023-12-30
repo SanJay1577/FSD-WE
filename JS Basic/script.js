@@ -88,7 +88,7 @@ console.log("chandru's", nestObj[0].studend[1].stack[2].js[0]);
 // https://restcountries.com/v3.1/all
 
 let xhr = new XMLHttpRequest();
-console.log(xhr);
+console.log(xhr); //object
 xhr.open("GET", "https://restcountries.com/v3.1/all");
 xhr.send();
 xhr.onload = function () {
