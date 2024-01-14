@@ -1,0 +1,92 @@
+*{
+          margin: 0;
+          padding: 0;
+}
+.box-model{
+          border :10px solid black;
+          width: 200px;
+          height: 200px;
+          background-color: brown;
+          margin : 10px ;
+          padding : 10px 15px 10px 15px;
+                   /* top right bottom left */
+}
+
+.btn{
+    margin: 10px;
+    border: 2px solid black;
+    padding : 10px;
+    border-radius: 10px;     
+}
+
+#main-container{
+   border: 2px solid black;
+   width : 500px;
+   height: 500px;
+   margin: 0 auto;
+   background-color: coral;     
+   padding: 10px 0px;  
+}
+
+.box{
+          border: 2px solid black; 
+          width : 100px;
+          height: 100px;  
+          margin: 5px;
+          color: white;  
+          text-align: center;
+          font-size: larger;
+}
+.sub-class{
+          position: sticky;
+          top : 0;
+          width: 100vw;
+          border : 2px solid red;
+          padding : 15px;
+          background-color: black;
+           color: white; 
+          font-size: larger;
+          text-align: center;
+}
+.absolute{
+          /* takes screen as the parent  */
+    position: absolute; 
+    top:15px;
+    left : 220px;
+   background-color: brown;
+}
+.relative{
+/* takes immdieate parent div as the parent  */
+position: relative;
+top: 60px;
+left : 100px;
+background-color: red;
+}
+.sticky{
+position: sticky;
+top:0;
+background-color: royalblue;
+}
+.fixed{
+position: fixed;
+top:0;
+right :0;
+background-color: rebeccapurple;
+}
+p{
+   font-size: 12px; 
+   color: blue;
+   /* to right to left to bottom to top */
+   background: radial-gradient(circle, yellow, coral);
+ }
+ 
+.par-cls{
+   font-size: 18px;
+   color: rgb(163, 66, 66);
+   
+}
+.child{
+   font-size: inherit;
+   color: inherit;
+   background: radial-gradient(circle, yellow, coral);
+}
