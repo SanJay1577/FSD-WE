@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+        margin:0;
+        padding: 0;
+}
+.main-container{
+          margin: 15px;
+}
+.overflow-container{
+          width: 50%;
+          height: 300px;
+          padding : 10px;
+          border : 1px solid black;
+          background-color: blueviolet;
+          font-family: "Dancing Script", cursive;
+          /* visble will show you the entier content
+          overflow: visible; */
+          /* overflow: scroll; */
+          /* overflow: hidden; */
+          /* overflow-y: hidden; */
+          /* overflow-x: hidden; */
+          overflow: auto;
+}
+
+.mesurements{
+        height: 25vh;
+        border : 2px solid red;
+        width: 50vw;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%
+}
+
+/* Mesuerments 
+cm, mm, in absoulte mesurement
+px pixel (1/96 of 1-inch) 1
+pt points (1/72 of 1- inch) 11
+pc picas (1/12 of 1 inch) 1
+vw - view width
+vh - view height 
+*/
+/* 16px = 1pc */
+
+.sample-1{
+        width: 160px;
+        height : 160px;
+        background-color: red;
+
+}
+
+.sample-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:10pc;
+        height : 10pc;
+        background-color: blue;
+        font-size: 25px;
+}
+html{
+        font-size: 30px;
+}
+/* em -> relative parentv fontsize 
+1em -> 25px
+"emphemeral unit"
+rem -> relative to root element fontsize
+1 rem -> 30px
+"root emphemeral unit"
+*/
+.sample-3{
+
+        width:1rem;
+        height : 30px;
+        background-color: violet;
+}

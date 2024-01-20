@@ -1,0 +1,87 @@
+*{
+          margin:0;
+          padding:0;
+}
+.box{
+          border: 1px solid black;
+          text-align: center;
+          background-color: red;
+          display: grid;
+          place-items: center;
+}
+
+#main-div{
+          margin : 15px;
+          height: 600px;
+          padding : 15px;
+          border: 5px solid black;
+          display: grid;
+          gap:0.5rem;
+         /* grid-template-columns: 250px 120px 120px 250px;
+         grid-template-rows: 400px 150px; */
+         grid-template-columns: repeat(4, 1fr);   
+}
+
+.grid-main{
+          display: grid;
+          height: 100vh;
+          text-align: center;
+          grid-template-rows: 10vh 80vh 10vh; 
+          grid-template-areas: 
+          "head head head " 
+          "side main main" 
+          "foot foot foot "
+          ;
+} 
+
+.header{
+          background-color: blanchedalmond;
+          grid-area: head;
+
+}
+.sidebar{
+          background-color: blueviolet;
+          grid-area: side;
+}
+.main{
+          background-color: burlywood  ;
+          grid-area: main;  
+}
+.footer{
+          background-color: darkslategray  ;
+          grid-area: foot; 
+}
+
+.content{
+display: flex;
+flex-direction: row;
+gap:1rem;
+padding: 10px;
+
+}
+.card{
+background-color: #fff;
+padding: 5px 15px;
+border-radius: 10px;
+
+}
+
+@media screen and (min-width:360px) and (max-width:720px){
+     .grid-main{
+          width : 100vh;
+          grid-template-rows: 10vh 10vh 70vh 10vh;
+          grid-template-areas: 
+          "head head head "
+          "side side side" 
+          "main main main" 
+          "foot foot foot "
+          ; 
+     }     
+}
+
+@media screen and (min-width:360px) and (max-width:520px){
+.content{
+          flex-direction: column;
+
+}
+}
