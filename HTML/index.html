@@ -1,200 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="learn fullstak">
-<meta name ="keyword" content="courses, fullstack, progarmming">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HTML</title>
-</head>
-<body>
-  <!-- Headings  -->
-  <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="learn fullstak" />
+    <meta name="keyword" content="courses, fullstack, progarmming" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+  </head>
+  <body>
+    <!-- Headings  -->
+    <div>
+      <h1>Headings 1</h1>
+      <h2>Headings 2</h2>
+      <h3>Headings 3</h3>
+      <h4>Headings 4</h4>
+      <h5>Headings 5</h5>
+      <h6>Headings 6</h6>
+    </div>
+    <hr />
 
-            <h1>Headings 1</h1>
-            <h2>Headings 2</h2>
-            <h3>Headings 3</h3>
-            <h4>Headings 4</h4>
-            <h5>Headings 5</h5>
-            <h6>Headings 6</h6>
-  </div>
-  <hr/>
-  
-<!-- List - Orders List -->
-<div>
-          <h1>List</h1>
-          <h2>Ordered List</h2>
-          <div>we can also change the type of an order by type arritbute</div>
-          <ol type="I">
-               <li>Bharkavi</li>
-               <li>Abinesh</li> 
-               <li>Ajay</li>      
-          </ol>
-         <h2>Unorderd list</h2>
-         <ul>
-          <li>Bharkavi</li>
-          <li>Abinesh</li> 
-          <li>Ajay</li>      
-          </ul>
-</div>
-<hr/>
-<div>
-     <h1>Block and Inline elements </h1>
-     <h2>Block elements</h2>
-    <div style="background-color: red;">Hi I'm  a div, a block level element</div>  
-    <p style="background-color: red;">I',m a pragraph</p> 
-     <h2>Inline elements</h2>
-     <span style="background-color:yellow;">Hi I'm span</span>
-     <span style="background-color:yellow;">Hi I'm span2</span>
-     <i style="background-color:yellow;">I', italyics</i>
-</div>
-<hr>
-<div style="background-color:yellow;">Hey I',ma  div</div>
-<section style="background-color:green;">Hey I'm section </section>
-<article style="background-color:red;">Hey I'm an article</article>
-<hr/>
-<h1>Semantics Tags</h1>
-<section>
+    <!-- List - Orders List -->
+    <div>
+      <h1>List</h1>
+      <h2>Ordered List</h2>
+      <div>we can also change the type of an order by type arritbute</div>
+      <ol type="I">
+        <li>Bharkavi</li>
+        <li>Abinesh</li>
+        <li>Ajay</li>
+      </ol>
+      <h2>Unorderd list</h2>
+      <ul>
+        <li>Bharkavi</li>
+        <li>Abinesh</li>
+        <li>Ajay</li>
+      </ul>
+    </div>
+    <hr />
+    <div>
+      <h1>Block and Inline elements</h1>
+      <h2>Block elements</h2>
+      <div style="background-color: red">
+        Hi I'm a div, a block level element
+      </div>
+      <p style="background-color: red">I',m a pragraph</p>
+      <h2>Inline elements</h2>
+      <span style="background-color: yellow">Hi I'm span</span>
+      <span style="background-color: yellow">Hi I'm span2</span>
+      <i style="background-color: yellow">I', italyics</i>
+    </div>
+    <hr />
+    <div style="background-color: yellow">Hey I',ma div</div>
+    <section style="background-color: green">Hey I'm section</section>
+    <article style="background-color: red">Hey I'm an article</article>
+    <hr />
+    <h1>Semantics Tags</h1>
+    <section>
+      <header>
+        <nav>Home about</nav>
+      </header>
 
-<header>
-
-          <nav>
-                    Home
-                    about
-          </nav>
-</header>
-
-          <main>
-
-                    <article>Articile</article>
-                    <aside>Aside tags</aside>
-          </main>
-          <footer>
-          contatct us footer info
-          </footer>
-</section>
-<hr/>
-<button>Normal Save</button>
-<h1>Forms</h1>
-<fieldset>
-     <legend style="color:brown"><h2><i>Basic Form</i></h2></legend>
-     <form>
-          <label for="first-name">First Name</label>
-          <input 
+      <main>
+        <article>Articile</article>
+        <aside>Aside tags</aside>
+      </main>
+      <footer>contatct us footer info</footer>
+    </section>
+    <hr />
+    <button>Normal Save</button>
+    <h1>Forms</h1>
+    <fieldset>
+      <legend style="color: brown">
+        <h2><i>Basic Form</i></h2>
+      </legend>
+      <form>
+        <label for="first-name">First Name</label>
+        <input
           type="text"
           required
-          name = "first-name"
+          name="first-name"
           placeholder="Enter your First Name"
-          />
-          <br>
-          <br>
-     
-          <label for="email">Email</label>
-          <input 
+        />
+        <br />
+        <br />
+
+        <label for="email">Email</label>
+        <input
           type="email"
           placeholder="Enter your Email"
-          name = "email"
+          name="email"
           required
-          />
-          <br><br>
-          <button>Submit</button>
-     </form>
-</fieldset>
-<hr>
-<h1>Tables</h1>
-     <table border="1" cellspacing="0" cellpadding="10">
-     <thead>
-          <th>SI.NO</th>
-          <th>Name</th>
-          <th>Age</th>
-          <th>Batch</th>
-     </thead>
-     <tbody>
-     <tr>
+        />
+        <br /><br />
+        <button>Submit</button>
+      </form>
+    </fieldset>
+    <hr />
+    <h1>Tables</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <thead>
+        <th>SI.NO</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Batch</th>
+      </thead>
+      <tbody>
+        <tr>
           <td>1</td>
-          <td>Arun</td>
+          <td sty><input type="radio" /></td>
           <td colspan="2">Nil</td>
-     </tr>
-     <tr>
+        </tr>
+        <tr>
           <td>2</td>
           <td>Ajay</td>
           <td>25</td>
           <td rowspan="2">FSD_GUVI</td>
-          
-     </tr>
-     <tr>
+        </tr>
+        <tr>
           <td>3</td>
           <td>Ashok</td>
           <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h1>Links and Images</h1>
 
-     </tr>
-     </tbody>
-     </table>
-<hr>
-<h1>Links and Images</h1>
+    <h2>Anchor Tags</h2>
 
-<h2>Anchor Tags</h2>
+    <h3>Same Tab</h3>
+    <a href="https://www.google.com/">google</a>
+    <h3>Another Tab</h3>
+    <a href="https://www.google.com/" target="_blank">google</a>
+    <h2>Images</h2>
+    <h3>Image from web</h3>
+    <img
+      src="https://i.pinimg.com/736x/a9/62/ef/a962ef5ea8dfa25418c0a2b0057a64d4.jpg"
+      alt="Cartoon Image"
+      width="200"
+      height="200"
+    />
+    <h3>Image from local</h3>
+    <img
+      src="/HTML/sample_image.jpg"
+      alt="Local Cartoon Image"
+      width="200"
+      height="200"
+    />
+    <hr />
+    <h1>Different Input types</h1>
+    <input type="text" /> <br />
+    <br />
+    <input type="number" /> <br />
+    <br />
+    <input type="color" /> <br />
+    <br />
+    <input type="password" /> <br />
+    <br />
+    <input type="checkbox" />Male <br />
+    <br />
+    <input type="checkbox" checked />Female <br />
+    <br />
+    <input type="date" /> <br />
+    <br />
+    <input type="datetime-local" /><br />
+    <br />
+    <input type="file" /><br /><br />
+    <input type="radio" name="gender" />Male<br /><br />
+    <input type="radio" name="gender" />Female<br /><br />
+    <input type="radio" name="gender" />Other<br /><br />
+    <input type="range" /><br /><br />
+    <input type="reset" /><br /><br />
+    <input type="search" placeholder="search city" /><br /><br />
+    <input type="time" /><br /><br />
+    <input type="week" /><br /><br />
+    <input type="url" /><br /><br />
+    <input type="email" /><br /><br />
+    <input type="submit" /><br /><br />
+    <textarea placeholder="Feedbacks"></textarea><br /><br />
+    <label>STACK</label>
+    <select>
+      <option>MERN</option>
+      <option>MEAN</option>
+      <option selected>Java fullstack</option>
+      <option disabled>GO fullstack</option>
+      <option>Python fullstack</option>
+    </select>
+    <br /><br />
+    <input type="text" list="city" placeholder="search city" />
+    <datalist id="city">
+      <option>Cheanni</option>
+      <option>Bangalore</option>
+      <option>Kochi</option>
+      <option>Hyderabad</option>
+    </datalist>
 
-<h3>Same Tab</h3>
-<a href="https://www.google.com/">google</a>
-<h3>Another Tab </h3>
-<a href="https://www.google.com/" target="_blank">google</a>
-<h2>Images</h2>
-<h3>Image from web</h3>
-<img
-src="https://i.pinimg.com/736x/a9/62/ef/a962ef5ea8dfa25418c0a2b0057a64d4.jpg"
-alt="Cartoon Image"
-width="200"
-height="200"
-/>
-<h3>Image from local</h3>
-<img
-src="/HTML/sample_image.jpg"
-alt="Local Cartoon Image"
-width="200"
-height="200"
-/>
-<hr/>
-<h1>Different Input types</h1>
-<input type="text"> <br> <br>
-<input type="number"> <br> <br>
-<input type="color"> <br> <br>
-<input type="password"> <br> <br>
-<input type="checkbox">Male <br> <br>
-<input type="checkbox" checked>Female <br> <br>
-<input type="date"> <br> <br>
-<input type="datetime-local"><br> <br>
-<input type="file"><br><br>
-<input type="radio" name="gender"/>Male<br><br>
-<input type="radio" name="gender"/>Female<br><br>
-<input type="radio" name="gender"/>Other<br><br>
-<input type ="range"/><br><br>
-<input type="reset"/><br><br>
-<input type="search" placeholder="search city"/><br><br>
-<input type="time"/><br><br>
-<input type="week"/><br><br>
-<input type="url"/><br><br>
-<input type="email"/><br><br>
-<input type="submit"/><br><br>
-<textarea placeholder="Feedbacks"></textarea><br><br>
-<label>STACK</label>
-<select>
-     <option>MERN</option>
-     <option>MEAN</option>
-     <option selected>Java fullstack</option>
-     <option disabled>GO fullstack</option>
-     <option>Python fullstack</option>
-</select>
-<br><br>
-<input type="text" list="city" placeholder="search city"/>
-<datalist id="city">
-     <option>Cheanni</option>
-     <option>Bangalore</option>
-     <option>Kochi</option>
-     <option>Hyderabad</option>
-</datalist>
-
-<br><br><br>
-<br><br><br>
-</body>
+    <br /><br /><br />
+    <br /><br /><br />
+  </body>
 </html>
