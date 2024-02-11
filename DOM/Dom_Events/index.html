@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="inbuild-events">
+      <button class="btn alert" onclick="exe_alert()">Alert</button>
+
+      <button class="btn confirm" onclick="exe_confirm()">Confirm</button>
+
+      <button class="btn prompt" onclick="exe_prompt()">Prompt</button>
+
+      <button class="btn timeout" onclick="timeout_counter()">Timeout</button>
+
+      <button class="btn interval" onclick="interval_counter()">
+        Interval
+      </button>
+    </div>
+    <div class="res-div"></div>
+    <div>
+      <form class="form-field">
+        <input id="name" placeholder="Enter your Name" type="text" />
+        <input id="batch" placeholder="Enter your Batch" type="text" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <table id="stud-table">
+        <tr>
+          <th>Name</th>
+          <th>Batch</th>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
