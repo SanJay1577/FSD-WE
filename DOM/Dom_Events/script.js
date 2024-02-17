@@ -67,3 +67,8 @@ form.addEventListener("submit", (e) => {
 // setTimeout vs setInterval
 // prompt, Alert, confirm
 // working with events" -->
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const values = arr.slice(5, 10);
+// console.log(values);
+// calculator
+// console.log(eval(7 * 5));
