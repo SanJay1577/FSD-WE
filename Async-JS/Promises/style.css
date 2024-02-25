@@ -1,0 +1,25 @@
+body {
+  background-color: #ccc;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.container {
+  background-color: white;
+  max-width: 15rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px 0px rgb(15, 8, 8);
+}
+#flag {
+  width: 100%;
+  height: 10rem;
+}
+.card-info {
+  padding: 1rem;
+}
+
+.card-info span {
+  font-weight: bold;
+}

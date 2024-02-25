@@ -25,7 +25,6 @@ function greeting(name) {
   console.log("Your process is completed", name);
 }
 //callbacks
-
 function handlingCash() {
   insertCardPrompt(() => {
     selectAccountType(() => {

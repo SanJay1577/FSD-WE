@@ -1,0 +1,46 @@
+#contry-container {
+  background-color: #ccc;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.container {
+  background-color: white;
+  max-width: 15rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px 0px rgb(15, 8, 8);
+}
+#flag {
+  width: 100%;
+  height: 10rem;
+}
+.card-info {
+  padding: 1rem;
+}
+
+.card-info span {
+  font-weight: bold;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 27px;
+  gap: 1rem;
+}
+.pagination button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  background-color: brown;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.pagination button.active {
+  background-color: black;
+  color: white;
+}
