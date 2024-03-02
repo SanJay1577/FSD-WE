@@ -37,7 +37,6 @@ let studArrCopy = studArr;
 studArrCopy[0] = "Amar";
 console.log("student array", studArr);
 console.log("student copy", studArrCopy);
-
 // deep copy
 const oldObject = { name: "vinoth" }; //tte541
 const newObejct = Object.assign({}, oldObject); //kjhj512
