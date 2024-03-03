@@ -1,0 +1,65 @@
+#student-data {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  place-items: center;
+}
+
+.card {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 0.5rem;
+  width: 10rem;
+}
+
+span {
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn {
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  gap: 1rem;
+
+  padding: 15px;
+}
+.input-text {
+  border-radius: 5px;
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+#del-btn {
+  background-color: crimson;
+}
+#edit-btn {
+  background-color: blueviolet;
+}
+.btn:hover {
+  padding: 8px;
+}
+#add-btn {
+  background-color: darkcyan;
+}
+#update-btn {
+  background-color: wheat;
+}
