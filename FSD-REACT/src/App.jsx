@@ -2,8 +2,6 @@
 import "./App.css";
 
 function App() {
-  const name1 = "Prashanth";
-
   return (
     <>
       <Profile name="Sanjay" batch="53" />
