@@ -4,14 +4,40 @@
   text-align: center;
 }
 
-.profile-container {
-  border: 1px solid black;
+.price-card {
   padding: 30px;
-  border-radius: 50%;
   margin: 5px;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: rgb(143, 180, 212);
 }
-img {
-  object-fit: cover;
-  width: 100px;
-  height: 120px;
+.type {
+  font-weight: bolder;
+}
+.abled {
+  opacity: normal;
+}
+.disabled {
+  opacity: 0.5;
+}
+button {
+  border: none;
+  color: rgb(61, 32, 32);
+  width: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+button:hover {
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
